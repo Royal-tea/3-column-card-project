@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+body{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    background-color: hsl(0, 0%, 95%);
+    padding: 20% 5%;
+}
+
+.box-1{
+    background-color: hsl(31, 77%, 52%);
+    padding: 15%;
+    border-radius: 20px 20px 0 0;
+}
+
+.box-1 button{
+    color: hsl(31, 77%, 52%);
+}
+
+.box-1 button:hover{
+    border: 2px solid white;
+    color: white;
+    background-color: hsl(31, 77%, 52%);
+    cursor: pointer;
+}
+
+.box-2{
+    background-color: hsl(184, 100%, 22%);
+    padding: 15%;
+}
+
+.box-2 button{
+    color: hsl(184, 100%, 22%);
+}
+
+.box-2 button:hover{
+    border: 2px solid white;
+    color: white;
+    background-color: hsl(184, 100%, 22%);
+    cursor: pointer;
+}
+
+.box-3{
+    background-color: hsl(179, 100%, 13%);
+    padding: 15%;
+    border-radius: 0 0 20px 20px;
+}
+
+.box-3 button{
+    color: hsl(179, 100%, 13%);
+}
+
+.box-3 button:hover{
+    border: 2px solid white;
+    color: white;
+    background-color: hsl(184, 100%, 22%);
+    cursor: pointer;
+}
+
+.btn{
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+    background-color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    padding: 4%;
+    width: 60%;
+    max-width: 190px;
+}
+
+h1{
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    font-size: 2.5em;
+}
+
+p{
+
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    color: black; 
+}
+
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+}
+
+/* Desktop display */
+
+@media screen and (min-width: 1100px) {
+
+    body{
+        padding: 12% 20%;
+    }
+
+    .container{
+        display: flex;
+        height: 500px;
+    }
+
+    .box-1{
+        border-radius: 10px 0 0 10px;
+        padding: 3em;  
+    }
+
+    .box-1 button{
+        width: 60%;
+        padding: 5%;   
+    }
+
+    .box-2{
+        padding: 3em;
+    }
+
+    .box-2 button{
+        width: 60%;
+        padding: 5%;   
+    }
+
+    .box-3{
+        border-radius: 0 10px 10px 0;
+        padding: 3em;
+    }
+
+    .box-3 button{
+        width: 60%;
+        padding: 5%;   
+    }
+
+    p{
+        font-size: .8em;
+        line-height: 2em;
+        margin-bottom: 40%;
+    }
+
+    .btn{
+        min-width: 95px;
+    }
+}
